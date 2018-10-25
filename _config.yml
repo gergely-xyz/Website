@@ -17,6 +17,7 @@ title: Gergely Horváth
 email: horvath@gergely.xyz
 description: >-
   The personal site of Gergely Horváth
+baseurl: "Website"
 url: "http://gergely.xyz/"
 github_username:  gergely-xyz
 date_format: "%Y-%m-%d %H:%M"
