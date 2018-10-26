@@ -1,5 +1,6 @@
 ---
 title: Projects
-layout: all-posts
-list_title: Projects
+layout: list
+filter: projects
+show_content: false
 ---

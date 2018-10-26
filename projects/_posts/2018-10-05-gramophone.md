@@ -1,7 +1,5 @@
 ---
 title: Gramophone mouse treadmill
-date:   2018-09-13 18:10:25 +0200
-categories: projects
 ---
 
  During my years as an Info-bionics MSc student at the [Pázmány Péter Catholic University][ppkeitk] I started working as a Research assistant at [RozsaLab][rlab]. In collaboration with [Femtonics Ltd.][femto] we developed a device for the single dimension locomotion tracking of head-restrained mice for *in vivo* two-photon microscopy experiments. When I started an early version of the device was already in use in the lab. My first task was to prototype a new, more reliable hardware and an accompanying software package that can work in conjunction with Femtonics' microscopes. I have captured this design and testing process in my MSc thesis work. 

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{{ content }}
+<h2>{{ page.title | default: "Posts" }}</h2>
+
+<ul class="post-list">
+    {%- for post in site.posts -%}
+    {% if post.categories[0] == page.filter %}
+    <li>
+        <h3><a href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>  </h3>
+        <time>{{ post.date | date: site.date_format }}</time>
+
+        {%- if page.show_excerpts -%}
+            {{ post.excerpt }}
+        {%- endif -%}
+
+        {%- if page.show_content -%}
+            <article>
+            {{ post.content }}
+            </article>
+        {%- endif -%}
+
+    </li>
+    {% endif %}
+    {%- endfor -%}
+</ul>
