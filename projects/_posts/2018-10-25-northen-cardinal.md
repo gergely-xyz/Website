@@ -6,9 +6,6 @@ I've never been that much of an aviation nerd, but building a model airplane has
 
 {% include image-gallery.html folder="projects/plane_pics" %}
 
-Shaky footage of the ground testing:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-8jaoX8r52g?rel=0&amp;ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 [ftyt]: https://www.youtube.com/user/flitetest "FliteTest YouTube channel"
 [3dhab]: http://www.3dhabvagas.hu
 [eppulti]: http://www.3dhabvagas.hu/termek/epp-ultimate-1000mm
