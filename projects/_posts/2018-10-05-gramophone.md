@@ -6,6 +6,8 @@ title: Gramophone mouse treadmill
 
  The prototype turned out to be such a success that it made sense to turn it into a [product][gramo]. Working with a small group of engineers, developers and application specialists at [Femtonics][femto], we developed a new compact hardware and significantly improved the [software package][gramogithub]. My main task here was the development and [documentation][gramdocs] of the software which proved to be a great opportunity to test and deepen my knowledge in Python, Qt, HID communication, HDF handling, Sphinx documentation generation and LaTeX. Due to my background it was also my responsibility to facilitate communication between the research and engineering departments to ensure the end product meets the expectations of the end users. In the end the locomotion tracking module got a nice GUI and an API was added to generate two dimensional linear mazes in which the animals can be conditioned for different tasks.
 
+{% include image-gallery.html folder="projects/gram_pics" %}
+
  The GramophoneTools package became Femtonics' first open-source software available under the GPL license on [GitHub][gramogithub].
 
 [rlab]: http://rozsalab.eu/
