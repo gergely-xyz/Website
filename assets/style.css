@@ -93,6 +93,21 @@ hr{
         "nav main"
         "footer footer";}
 
+.video-wrapper {
+    position: relative;
+    padding-bottom: 39%; /* 70% of 16:9 ratio */
+    padding-top: 0;
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+}
+
 aside{
     grid-area: aside;
     align-self: center;
@@ -165,6 +180,7 @@ footer{
 
 @media screen and (max-width: 768px){
     .wrapper{
+        padding: 0;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "header"
@@ -176,5 +192,13 @@ footer{
     nav{
         grid-template-rows: 50px;
         grid-template-columns: repeat(auto-fit, minmax(130px, 1fr) );
+    }
+
+    .video-wrapper {
+        padding-bottom: 56%; /* 100% of 16:9 ratio */
+    }
+    
+    .video-wrapper iframe {
+        width: 100%;
     }
 }
