@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hgergely
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gergely.xyz
+  * I am hgergely (https://keybase.io/hgergely) on keybase.
+  * I have a public key ASBLNzZ-r-Ajyi_RX-51WzK36vgpx-QVEoLzXyDl3E9m9Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204b37367eafe023ca2fd15fee755b32b7eaf829c7e4151282f35f20e5dc4f66f50a",
+      "host": "keybase.io",
+      "kid": "01204b37367eafe023ca2fd15fee755b32b7eaf829c7e4151282f35f20e5dc4f66f50a",
+      "uid": "0e6cc0e974a6f335f6c265627b4f1e19",
+      "username": "hgergely"
+    },
+    "merkle_root": {
+      "ctime": 1546108097,
+      "hash": "565a463ee2857c32396cdb6eaf1f04545afc57b91f9757da34c7c8ef1302fd38877db5aa7cd77d20d4ef06bac02c9e2fa44e594bf63f00f0bac2a892bd07b7b1",
+      "hash_meta": "6b79ae3ae9327fd4d7bbd1a1c15a9f4a4eb40c1f93a93d62f220cf69a5054a0a",
+      "seqno": 4207641
+    },
+    "service": {
+      "entropy": "B5BOgeF2z3KupreiEshHEB9Z",
+      "hostname": "gergely.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1546108133,
+  "expire_in": 504576000,
+  "prev": "e19eeda83c2f6d1e779417ee00c3ff27dbe2ba3a1da6035e2a225ac7ed1f78c2",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSzc2fq/gI8ov0V/udVsyt+r4KcfkFRKC818g5dxPZvUKp3BheWxvYWTESpcCDsQg4Z7tqDwvbR53lBfuAMP/J9viujodpgNeKiJax+0feMLEICcKdqrxegHxyn0hff8XBzPtIYBevo8ECLuJ6eTkgjcxAgHCo3NpZ8RAgLcBNZgdTPqgupihI1ElNCBA/B9BHiBgpywg23/T7Vx+wkEm7cYBPwh6L84dIMX9vEOh/frCvMqNm8mxTEdyCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKIJvNStVrNTu/41S3SSP2hu3lGHPHpqJ0urRdXZz1u4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hgergely
+
+==================================================================
