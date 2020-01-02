@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article>
+  <!-- <script type="text/javascript" src="{{ "/assets/lightbox.js" | relative_url }}"></script> -->
+  <h2><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h2>
+  <time datetime="{{ page.date }}">
+      {{ page.date | date: site.date_format }}
+  </time>
+  <p><a href="{{ page.flickr_link }}" target="_blank">View on flickr >></a></p>
+  {{ page.content }}
+  <section class="gallery">
+    {% for image in page.images %}
+    <a href="{{ image.link }}"><img src="{{ image.image_path }}" alt="{{ image.title }}"></a>
+    {% endfor %}
+  </section>
+</article>
+

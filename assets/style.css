@@ -42,6 +42,32 @@ a:hover{
     color: var(--dblue);
 }
 
+section.gallery{
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    column-count: 5;
+    column-gap: 7px;
+    /* line-height: 5px; */
+    /* columns: 3; */
+    /* display: grid; */
+    /* grid-gap: 1em; */
+}
+
+section.gallery img {
+  width: 100% !important;
+  height: auto !important;
+  transition: .3s ease;
+}
+
+section.gallery img:hover{
+    transform: scale(1.1);
+}
+
+section.gallery img:active{
+    transform: scale(.9);
+}
+
 ul.post-list{
     list-style-type: none;
     margin: 0;
@@ -202,3 +228,23 @@ footer{
         width: 100%;
     }
 }
+
+@media (max-width: 1200px) {
+  section.gallery{
+    column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  section.gallery{
+    column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  section.gallery{
+    column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  section.gallery{
+    column-count:         1;
+  }
