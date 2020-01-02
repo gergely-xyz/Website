@@ -34,7 +34,7 @@ defaults:
       type: posts
     values:
       layout: "post"
-      permalink: "/:categories/:title/"
+      permalink: "/:categories/:title-:year/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
